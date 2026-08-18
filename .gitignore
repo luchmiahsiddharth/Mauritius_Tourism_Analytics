@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Power BI
+*.pbix.bak
+
+# Data - keep raw data out of git if files are large or sensitive
+data/raw/*
+!data/raw/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

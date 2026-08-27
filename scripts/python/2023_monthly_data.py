@@ -21,19 +21,30 @@ data = data.reset_index(drop=True)
 data["Country"] = data["Country"].astype(str).str.replace(r"\s*\d+$", "", regex=True).str.strip()
 
 # Detect region header rows: they're written in ALL CAPS (e.g. "EUROPE"), unlike country names
-is_region_header = data["Country"].str.isupper()
+continents = {"AFRICA", "AMERICA", "ASIA", "EUROPE", "OCEANIA"}
+is_region_header = data["Country"].isin(continents)
 
-# Build Continent column by carrying the most recent region header down onto the rows below it
+# Carry the most recent continent header down to its country rows.
 data["Continent"] = data["Country"].where(is_region_header).ffill()
 
+# Remove the actual continent header rows.
 data = data[~is_region_header].copy()
 
-long_df = data.melt(id_vars=["Country", "Continent"], var_name="Year_Month_Type", value_name="value")
+long_df = data.melt(
+    id_vars=["Country", "Continent"],
+    var_name="Year_Month_Type",
+    value_name="value"
+)
 
-long_df[["Year", "Month", "Type"]] = long_df["Year_Month_Type"].str.rsplit("_", n=2, expand=True)
+long_df[["Year", "Month", "Type"]] = long_df[
+    "Year_Month_Type"
+].str.rsplit("_", n=2, expand=True)
 long_df = long_df.drop(columns="Year_Month_Type")
 
-long_df = long_df[(long_df["Year"] == "2023") & (long_df["Month"] != "Jan-Dec")]
+long_df = long_df[
+    (long_df["Year"] == "2023") &
+    (long_df["Month"] != "Jan-Dec")
+]
 
 tidy = long_df.pivot_table(
     index=["Continent", "Country", "Year", "Month"],
@@ -43,18 +54,25 @@ tidy = long_df.pivot_table(
 ).reset_index()
 tidy.columns.name = None
 
-tidy["Date"] = pd.to_datetime(tidy["Year"] + "-" + tidy["Month"], format="%Y-%b")
+tidy["Date"] = pd.to_datetime(
+    tidy["Year"] + "-" + tidy["Month"],
+    format="%Y-%b"
+)
 
 print((tidy["Air"] + tidy["Sea"] == tidy["Total"]).all())
 
-tidy=tidy.sort_values(["Continent","Country", "Date"]).reset_index(drop=True)
+tidy = tidy.sort_values(
+    ["Continent", "Country", "Date"]
+).reset_index(drop=True)
 
-tidy = tidy[tidy['Country'].notna()]
+tidy = tidy[tidy["Country"].notna()]
+tidy = tidy[~tidy["Country"].str.contains("IOC 3 countries", na=False)]
+tidy = tidy[~tidy["Country"].str.contains("MIDDLE EAST", na=False)]
+tidy = tidy[~tidy["Country"].str.contains("CIS 2 countries", na=False)]
+tidy = tidy[~tidy["Country"].str.contains("All countries", na=False)]
+tidy = tidy[~tidy["Country"].str.contains("Others", na=False)]
 
-tidy = tidy[~tidy['Country'].str.contains("Others", na=False)]
-tidy = tidy[~tidy['Country'].str.contains("IOC", na=False)]
-tidy = tidy[~tidy['Country'].str.contains("MIDDLE EAST", na=False)]
-tidy = tidy[~tidy['Country'].str.contains("All", na=False)]
-
-
-tidy.to_csv("C:\\Users\\sidlu\\Mauritius_Tourism_Analytics\\data\\processed\\2023_Tourist_Arrivals_Clean.CSV", index=False)
+tidy.to_csv(
+    r"C:\Users\sidlu\Mauritius_Tourism_Analytics\data\processed\2023_Tourist_Arrivals_Clean.CSV",
+    index=False
+)

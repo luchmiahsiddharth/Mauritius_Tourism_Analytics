@@ -143,18 +143,6 @@ AFRICA,Ghana,2023,Sep,86,0,86,2023-09-01
 AFRICA,Ghana,2023,Oct,146,1,147,2023-10-01
 AFRICA,Ghana,2023,Nov,132,1,133,2023-11-01
 AFRICA,Ghana,2023,Dec,101,1,102,2023-12-01
-AFRICA,IOC 3 countries,2023,Jan,19264,3,19267,2023-01-01
-AFRICA,IOC 3 countries,2023,Feb,5853,3,5856,2023-02-01
-AFRICA,IOC 3 countries,2023,Mar,13812,3,13815,2023-03-01
-AFRICA,IOC 3 countries,2023,Apr,8255,1,8256,2023-04-01
-AFRICA,IOC 3 countries,2023,May,16941,2,16943,2023-05-01
-AFRICA,IOC 3 countries,2023,Jun,7258,5,7263,2023-06-01
-AFRICA,IOC 3 countries,2023,Jul,18298,3,18301,2023-07-01
-AFRICA,IOC 3 countries,2023,Aug,12441,5,12446,2023-08-01
-AFRICA,IOC 3 countries,2023,Sep,7736,2,7738,2023-09-01
-AFRICA,IOC 3 countries,2023,Oct,16973,3,16976,2023-10-01
-AFRICA,IOC 3 countries,2023,Nov,8675,11,8686,2023-11-01
-AFRICA,IOC 3 countries,2023,Dec,21261,10,21271,2023-12-01
 AFRICA,Ivory Coast,2023,Jan,25,0,25,2023-01-01
 AFRICA,Ivory Coast,2023,Feb,43,0,43,2023-02-01
 AFRICA,Ivory Coast,2023,Mar,39,1,40,2023-03-01
@@ -299,6 +287,18 @@ AFRICA,Nigeria,2023,Sep,342,0,342,2023-09-01
 AFRICA,Nigeria,2023,Oct,295,1,296,2023-10-01
 AFRICA,Nigeria,2023,Nov,269,1,270,2023-11-01
 AFRICA,Nigeria,2023,Dec,308,2,310,2023-12-01
+AFRICA,Other African countries,2023,Jan,260,0,260,2023-01-01
+AFRICA,Other African countries,2023,Feb,184,0,184,2023-02-01
+AFRICA,Other African countries,2023,Mar,204,9,213,2023-03-01
+AFRICA,Other African countries,2023,Apr,167,0,167,2023-04-01
+AFRICA,Other African countries,2023,May,186,0,186,2023-05-01
+AFRICA,Other African countries,2023,Jun,237,0,237,2023-06-01
+AFRICA,Other African countries,2023,Jul,262,0,262,2023-07-01
+AFRICA,Other African countries,2023,Aug,224,5,229,2023-08-01
+AFRICA,Other African countries,2023,Sep,261,1,262,2023-09-01
+AFRICA,Other African countries,2023,Oct,298,0,298,2023-10-01
+AFRICA,Other African countries,2023,Nov,199,5,204,2023-11-01
+AFRICA,Other African countries,2023,Dec,284,8,292,2023-12-01
 AFRICA,Reunion Island,2023,Jan,17778,0,17778,2023-01-01
 AFRICA,Reunion Island,2023,Feb,4616,0,4616,2023-02-01
 AFRICA,Reunion Island,2023,Mar,12384,1,12385,2023-03-01
@@ -623,18 +623,6 @@ ASIA,Lebanon,2023,Sep,24,0,24,2023-09-01
 ASIA,Lebanon,2023,Oct,24,0,24,2023-10-01
 ASIA,Lebanon,2023,Nov,19,0,19,2023-11-01
 ASIA,Lebanon,2023,Dec,16,0,16,2023-12-01
-ASIA,MIDDLE EAST countries,2023,Jan,1711,0,1711,2023-01-01
-ASIA,MIDDLE EAST countries,2023,Feb,1720,0,1720,2023-02-01
-ASIA,MIDDLE EAST countries,2023,Mar,2915,0,2915,2023-03-01
-ASIA,MIDDLE EAST countries,2023,Apr,3139,0,3139,2023-04-01
-ASIA,MIDDLE EAST countries,2023,May,2809,0,2809,2023-05-01
-ASIA,MIDDLE EAST countries,2023,Jun,6289,2,6291,2023-06-01
-ASIA,MIDDLE EAST countries,2023,Jul,6126,1,6127,2023-07-01
-ASIA,MIDDLE EAST countries,2023,Aug,4829,2,4831,2023-08-01
-ASIA,MIDDLE EAST countries,2023,Sep,2908,0,2908,2023-09-01
-ASIA,MIDDLE EAST countries,2023,Oct,1940,0,1940,2023-10-01
-ASIA,MIDDLE EAST countries,2023,Nov,2120,1,2121,2023-11-01
-ASIA,MIDDLE EAST countries,2023,Dec,1862,0,1862,2023-12-01
 ASIA,Malaysia,2023,Jan,74,0,74,2023-01-01
 ASIA,Malaysia,2023,Feb,41,0,41,2023-02-01
 ASIA,Malaysia,2023,Mar,63,5,68,2023-03-01
@@ -683,6 +671,30 @@ ASIA,Oman,2023,Sep,11,0,11,2023-09-01
 ASIA,Oman,2023,Oct,10,0,10,2023-10-01
 ASIA,Oman,2023,Nov,10,0,10,2023-11-01
 ASIA,Oman,2023,Dec,18,0,18,2023-12-01
+ASIA,Other Asian countries,2023,Jan,8,2,10,2023-01-01
+ASIA,Other Asian countries,2023,Feb,16,4,20,2023-02-01
+ASIA,Other Asian countries,2023,Mar,14,7,21,2023-03-01
+ASIA,Other Asian countries,2023,Apr,15,1,16,2023-04-01
+ASIA,Other Asian countries,2023,May,14,0,14,2023-05-01
+ASIA,Other Asian countries,2023,Jun,18,2,20,2023-06-01
+ASIA,Other Asian countries,2023,Jul,17,2,19,2023-07-01
+ASIA,Other Asian countries,2023,Aug,15,3,18,2023-08-01
+ASIA,Other Asian countries,2023,Sep,16,3,19,2023-09-01
+ASIA,Other Asian countries,2023,Oct,17,1,18,2023-10-01
+ASIA,Other Asian countries,2023,Nov,28,3,31,2023-11-01
+ASIA,Other Asian countries,2023,Dec,21,6,27,2023-12-01
+ASIA,Other Middle East countries,2023,Jan,9,0,9,2023-01-01
+ASIA,Other Middle East countries,2023,Feb,1,0,1,2023-02-01
+ASIA,Other Middle East countries,2023,Mar,9,0,9,2023-03-01
+ASIA,Other Middle East countries,2023,Apr,3,0,3,2023-04-01
+ASIA,Other Middle East countries,2023,May,6,0,6,2023-05-01
+ASIA,Other Middle East countries,2023,Jun,10,0,10,2023-06-01
+ASIA,Other Middle East countries,2023,Jul,9,1,10,2023-07-01
+ASIA,Other Middle East countries,2023,Aug,5,0,5,2023-08-01
+ASIA,Other Middle East countries,2023,Sep,14,0,14,2023-09-01
+ASIA,Other Middle East countries,2023,Oct,1,0,1,2023-10-01
+ASIA,Other Middle East countries,2023,Nov,3,0,3,2023-11-01
+ASIA,Other Middle East countries,2023,Dec,9,0,9,2023-12-01
 ASIA,Pakistan,2023,Jan,46,1,47,2023-01-01
 ASIA,Pakistan,2023,Feb,43,2,45,2023-02-01
 ASIA,Pakistan,2023,Mar,55,2,57,2023-03-01
@@ -1079,6 +1091,30 @@ EUROPE,Norway,2023,Sep,225,0,225,2023-09-01
 EUROPE,Norway,2023,Oct,291,3,294,2023-10-01
 EUROPE,Norway,2023,Nov,299,19,318,2023-11-01
 EUROPE,Norway,2023,Dec,463,1,464,2023-12-01
+EUROPE,Other CIS countries,2023,Jan,100,0,100,2023-01-01
+EUROPE,Other CIS countries,2023,Feb,63,0,63,2023-02-01
+EUROPE,Other CIS countries,2023,Mar,132,0,132,2023-03-01
+EUROPE,Other CIS countries,2023,Apr,72,0,72,2023-04-01
+EUROPE,Other CIS countries,2023,May,29,0,29,2023-05-01
+EUROPE,Other CIS countries,2023,Jun,30,1,31,2023-06-01
+EUROPE,Other CIS countries,2023,Jul,33,0,33,2023-07-01
+EUROPE,Other CIS countries,2023,Aug,36,0,36,2023-08-01
+EUROPE,Other CIS countries,2023,Sep,29,0,29,2023-09-01
+EUROPE,Other CIS countries,2023,Oct,37,0,37,2023-10-01
+EUROPE,Other CIS countries,2023,Nov,49,0,49,2023-11-01
+EUROPE,Other CIS countries,2023,Dec,109,2,111,2023-12-01
+EUROPE,Other European countries,2023,Jan,226,2,228,2023-01-01
+EUROPE,Other European countries,2023,Feb,226,2,228,2023-02-01
+EUROPE,Other European countries,2023,Mar,182,1,183,2023-03-01
+EUROPE,Other European countries,2023,Apr,281,2,283,2023-04-01
+EUROPE,Other European countries,2023,May,144,2,146,2023-05-01
+EUROPE,Other European countries,2023,Jun,164,0,164,2023-06-01
+EUROPE,Other European countries,2023,Jul,183,1,184,2023-07-01
+EUROPE,Other European countries,2023,Aug,165,2,167,2023-08-01
+EUROPE,Other European countries,2023,Sep,232,0,232,2023-09-01
+EUROPE,Other European countries,2023,Oct,256,0,256,2023-10-01
+EUROPE,Other European countries,2023,Nov,283,1,284,2023-11-01
+EUROPE,Other European countries,2023,Dec,263,6,269,2023-12-01
 EUROPE,Poland,2023,Jan,1396,5,1401,2023-01-01
 EUROPE,Poland,2023,Feb,1390,6,1396,2023-02-01
 EUROPE,Poland,2023,Mar,1610,4,1614,2023-03-01
@@ -1259,3 +1295,27 @@ OCEANIA,New Zealand,2023,Sep,56,14,70,2023-09-01
 OCEANIA,New Zealand,2023,Oct,94,3,97,2023-10-01
 OCEANIA,New Zealand,2023,Nov,54,98,152,2023-11-01
 OCEANIA,New Zealand,2023,Dec,131,3,134,2023-12-01
+OCEANIA,Other Oceanian countries,2023,Jan,34,0,34,2023-01-01
+OCEANIA,Other Oceanian countries,2023,Feb,12,0,12,2023-02-01
+OCEANIA,Other Oceanian countries,2023,Mar,25,11,36,2023-03-01
+OCEANIA,Other Oceanian countries,2023,Apr,25,0,25,2023-04-01
+OCEANIA,Other Oceanian countries,2023,May,48,0,48,2023-05-01
+OCEANIA,Other Oceanian countries,2023,Jun,20,0,20,2023-06-01
+OCEANIA,Other Oceanian countries,2023,Jul,40,0,40,2023-07-01
+OCEANIA,Other Oceanian countries,2023,Aug,18,0,18,2023-08-01
+OCEANIA,Other Oceanian countries,2023,Sep,37,0,37,2023-09-01
+OCEANIA,Other Oceanian countries,2023,Oct,37,3,40,2023-10-01
+OCEANIA,Other Oceanian countries,2023,Nov,36,4,40,2023-11-01
+OCEANIA,Other Oceanian countries,2023,Dec,45,0,45,2023-12-01
+USA,Other American countries,2023,Jan,159,3,162,2023-01-01
+USA,Other American countries,2023,Feb,126,12,138,2023-02-01
+USA,Other American countries,2023,Mar,142,25,167,2023-03-01
+USA,Other American countries,2023,Apr,126,1,127,2023-04-01
+USA,Other American countries,2023,May,152,5,157,2023-05-01
+USA,Other American countries,2023,Jun,158,4,162,2023-06-01
+USA,Other American countries,2023,Jul,129,0,129,2023-07-01
+USA,Other American countries,2023,Aug,135,0,135,2023-08-01
+USA,Other American countries,2023,Sep,166,0,166,2023-09-01
+USA,Other American countries,2023,Oct,187,3,190,2023-10-01
+USA,Other American countries,2023,Nov,173,33,206,2023-11-01
+USA,Other American countries,2023,Dec,124,15,139,2023-12-01

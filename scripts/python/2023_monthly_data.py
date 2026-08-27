@@ -51,7 +51,9 @@ tidy=tidy.sort_values(["Continent","Country", "Date"]).reset_index(drop=True)
 
 tidy = tidy[tidy['Country'].notna()]
 
-tidy = tidy[~tidy['Country'].str.contains("Other", na=False)]
+tidy = tidy[~tidy['Country'].str.contains("Others", na=False)]
+tidy = tidy[~tidy['Country'].str.contains("IOC", na=False)]
+tidy = tidy[~tidy['Country'].str.contains("MIDDLE EAST", na=False)]
 tidy = tidy[~tidy['Country'].str.contains("All", na=False)]
 
 
